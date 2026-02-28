@@ -221,9 +221,9 @@ Orbot routes Android traffic through the Tor network.
 ### What is Playit.gg?
 
 **Playit.gg** is a global proxy tunnel service that lets you make your **game server or local service public** without port forwarding.  
-It creates a tunnel from your machine to Playit’s infrastructure, and gives you a publicly accessible address you can share with friends. :contentReference[oaicite:1]{index=1}
+It creates a tunnel from your machine to Playit’s infrastructure, and gives you a publicly accessible address you can share with friends. 
 
-👉 Works on **Windows, Linux, macOS, Docker** and supports many games. :contentReference[oaicite:2]{index=2}
+👉 Works on **Windows, Linux, macOS, Docker** and supports many games. 
 
 ---
 
@@ -233,9 +233,9 @@ It creates a tunnel from your machine to Playit’s infrastructure, and gives yo
 - It connects out to Playit.gg’s **global Anycast network**.
 - Playit assigns a public endpoint (IP or hostname + port).
 - Players or clients connect to that endpoint.
-- Playit tunnels traffic back to your local server without opening router ports. :contentReference[oaicite:3]{index=3}
+- Playit tunnels traffic back to your local server without opening router ports. 
 
-**No port forwarding** and **no router config** needed — great for home servers behind NAT or CGNAT. :contentReference[oaicite:4]{index=4}
+**No port forwarding** and **no router config** needed — great for home servers behind NAT or CGNAT. 
 
 ---
 
@@ -253,14 +253,14 @@ It creates a tunnel from your machine to Playit’s infrastructure, and gives yo
 - Regional tunnel routing
 - Custom `.playit.plus` domains
 - More ports & firewall rules
-- Better latency & regional endpoints :contentReference[oaicite:5]{index=5}
+- Better latency & regional endpoints 
 
 ---
 
 ## 🔧 Typical Use Cases
 
-✔ Host a **Minecraft**, **Valheim**, **Rust**, **Terraria** server without port-forwarding :contentReference[oaicite:6]{index=6}  
-✔ Share local services with friends without exposing your real IP :contentReference[oaicite:7]{index=7}  
+✔ Host a **Minecraft**, **Valheim**, **Rust**, **Terraria** server without port-forwarding   
+✔ Share local services with friends without exposing your real IP   
 ✔ Quick testing environment for apps or games  
 ✔ Run tunnels from any location or public network
 
@@ -285,9 +285,9 @@ Tailscale/NetBird are best for secure private access, Playit is best for **publi
 
 ## ⚠ Things to Consider
 
-❗ It’s **designed for gaming & public tunnels** — not a full VPN like Tailscale or OpenVPN. :contentReference[oaicite:8]{index=8}  
-❗ Some services may exhibit **latency** compared to direct connections. :contentReference[oaicite:9]{index=9}  
-❗ Playit’s terms **disallow traffic resembling malware/C2 frameworks** and heavy abuse patterns. :contentReference[oaicite:10]{index=10}
+❗ It’s **designed for gaming & public tunnels** — not a full VPN like Tailscale or OpenVPN.   
+❗ Some services may exhibit **latency** compared to direct connections. 
+❗ Playit’s terms **disallow traffic resembling malware/C2 frameworks** and heavy abuse patterns. 
 
 ---
 
