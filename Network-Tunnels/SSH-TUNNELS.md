@@ -42,47 +42,6 @@ ssh -R 80:localhost:3000 serveo.net
 ```
 
 ### Localhost.run
-Gemini said
-Here is the entire guide converted into a single, clean Markdown file contained within one code block.
-
-Markdown
-# SSH Tunneling & Reverse Proxy Guide
-
-## 1. What is SSH Tunneling?
-SSH tunneling (SSH port forwarding) creates an encrypted tunnel between a local source and a remote destination. It is the gold standard for securely accessing internal services or exposing local ports to the internet without complex VPNs.
-
----
-
-## 2. Remote Port Forwarding (Reverse Proxy)
-This allows you to expose a local service (like a web server on port 8080) to the public internet using third-party relay servers.
-
-### 🌐 Pinggy.io
-Pinggy is a powerful tool for instant URLs. Use port **443** to bypass restrictive firewalls.
-
-**Standard TCP Tunnel:**
-```bash
-ssh -p 443 -R0:localhost:8080 tcp@free.pinggy.io
-```
-## TLS Tunnel (with HTTPS termination):
-```bash
-ssh -p 443 -R0:localhost:8000 tls@ap.free.pinggy.io
-```
-## Regional Servers (Lowest Latency):
-
-Asia: ap.free.pinggy.io
-
-Europe: eu.free.pinggy.io
-
-United States: us.free.pinggy.io
-
-
-### 🌐 Serveo.net
-A simple, no-install reverse proxy.
-
-```bash
-ssh -R 80:localhost:3000 serveo.net
-```
-### 🌐 Localhost.run
 Excellent for quick web hooks and testing.
 ```bash
 # Basic usage
@@ -91,6 +50,16 @@ ssh -R 80:localhost:8080 nokey@localhost.run
 # With TLS termination (Custom subdomain if available)
 ssh -R 80:localhost:3000 yourapp.localhost.run
 ```
+
+
+
+
+
+
+
+
+
+
 # Automation & "Silent" Connection
 When scripts or automated tasks run SSH, you don't want the "Are you sure you want to continue connecting?" prompt or the connection to drop.
 ## Skip Host Verification (Auto-accept Prompt)
@@ -123,3 +92,12 @@ ssh -p 443 \
 | **-o StrictHostKeyChecking=no** | Disables the "Trust this host?" prompt. |
 | **-o UserKnownHostsFile=/dev/null** | Prevents saving the host key to your machine. |
 | **-o ServerAliveInterval=30** | Sends a "heartbeat" every 30s to keep the tunnel alive. |
+
+### Tool Comparison
+
+| Tool Name | Key Features & Best Use Case |
+| :--- | :--- |
+| **Pinggy.io** | Best for bypassing firewalls using port `443`. Supports TCP, TLS, and HTTP tunnels with regional servers for low latency. |
+| **Serveo.net** | No installation required. Ideal for quick, temporary demos where you just need a public URL instantly via standard SSH. |
+| **Localhost.run** | Great for webhooks. It provides easy TLS termination and allows for custom subdomains if you have an account. |
+| **Standard SSH** | The manual approach. Best for internal network management (Local `-L` or Remote `-R`) when you already have a target server IP. |
