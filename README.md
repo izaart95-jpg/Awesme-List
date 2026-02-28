@@ -1,0 +1,2 @@
+# LogicNode
+Logic isnt Magic
