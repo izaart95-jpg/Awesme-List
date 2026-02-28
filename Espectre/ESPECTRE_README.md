@@ -2,6 +2,10 @@
 
 A real-time WebSocket-based dashboard for visualizing ESPHome CSI (Channel State Information) motion detection data with interactive gauges and live metrics.
 
+Visit Main Repo For Further Info:
+https://github.com/francescopace/espectre
+
+
 ![Dashboard Preview](https://img.shields.io/badge/Status-Live-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![WebSocket](https://img.shields.io/badge/WebSocket-Real--time-orange)
 
 ## 🎯 Features
@@ -75,7 +79,7 @@ Place these files in your project directory:
 
 Ensure your `espectre.yaml` file is in the same directory and your ESP32 device is:
 - Powered on
-- Connect to esp32 Wifi Enter Router SSID and PASS
+- Connect to esp32 Wifi Enter/Select Router SSID and PASS (empty if no password is set)
 - Ensure Esp32 is Connected to your Wi-Fi network
 - Accessible on the network
 - Change SSID and PASS in espectre.yaml to your router SSID and PASS
