@@ -102,6 +102,7 @@ Web scraping, browser automation, and workflow tools.
 |----------|-------------|
 | [Web Automation](automation/web-automation.md) | Playwright, Selenium, Puppeteer, CapMonster, 2Captcha, Camoufox — browser control and anti-bot |
 | [Workflow Automation](automation/workflow-automation.md) | n8n, Tasker, MacroDroid — self-hosted workflows, Android automation |
+| [Discord Quest Completer](automation/discord-quest-completer.md) | Complete Discord Quests without installing games — dummy process spoofing, Tauri app, Windows only |
 
 ### Deployment
 Cloud platforms, hosting, and compute environments.
@@ -140,6 +141,15 @@ Video, anime, manga, and self-hosted media platforms.
 | [Manga Reading](streaming/manga-reading.md) | WeebCentral, MangaDex, Mihon/Tachiyomi — manga and manhwa platforms, offline reading, AniList sync |
 | [Plex](streaming/plex.md) | Self-hosted media server — library setup, file naming, Docker deployment, transcoding, API |
 
+### Minecraft
+Clients, bots, and servers for Minecraft Java Edition.
+
+| Document | Description |
+|----------|-------------|
+| [Utility Clients](minecraft/utility-clients.md) | Meteor Client, Baritone — open-source Fabric utility mod, A* pathfinding bot, anarchy server tools |
+| [Ghost Clients](minecraft/ghost-clients.md) | Vape, Raven B+, Hydrogen, Vestige — stealth PvP clients, module overview, installation |
+| [Servers](minecraft/servers.md) | FakePixel (free Hypixel alternative), 2b2t, Hypixel, MineMenClub — server types, connecting, software |
+
 ### Reference
 Storage platforms, communities, and quick-reference directories.
 
@@ -158,9 +168,9 @@ Storage platforms, communities, and quick-reference directories.
 
 | Metric | Value |
 |--------|-------|
-| **Total Documents** | 63 |
-| **Categories** | 13 |
-| **Topics Covered** | Kernels, OS Theory, Protocols, Virtualization, Networking, Security, Fingerprinting, Reverse Engineering, OPSEC, IoT, Mobile, AI, Video AI, Coding Agents, Docker, Kubernetes, Automation, Deployment, Media, Email, File Storage, Video Streaming, Anime, Manga, Self-Hosted Media |
+| **Total Documents** | 67 |
+| **Categories** | 14 |
+| **Topics Covered** | Kernels, OS Theory, Protocols, Virtualization, Networking, Security, Fingerprinting, Reverse Engineering, OPSEC, IoT, Mobile, AI, Video AI, Coding Agents, Docker, Kubernetes, Automation, Deployment, Media, Email, File Storage, Video Streaming, Anime, Manga, Self-Hosted Media, Minecraft Clients, Minecraft Servers |
 
 ---
 
