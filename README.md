@@ -32,6 +32,8 @@ Network infrastructure, tunneling, and secure connectivity.
 | [VPN & ZTNA](networking/vpn-and-ztna.md) | Tailscale, WireGuard, OpenVPN, NetBird, ProtonVPN, Tor, Playit.gg |
 | [Free DNS Services](networking/free-dns-services.md) | Dynamic DNS (No-IP, Dynu, DuckDNS, Cloudflare), free domains, DNS hosting |
 | [Remote Access](networking/remote-access.md) | X11, VNC, RDP, SPICE, SSH basics, Win-KeX, VcXsrv, Parsec, AnyDesk, Sunshine+Moonlight, RustDesk, NoMachine, Guacamole, noVNC, xrdp |
+| [Tunneling Tools](networking/tunneling-tools.md) | Ngrok, LocalXpose, Cloudflared — expose local services to the internet |
+| [OnionShare](networking/onionshare.md) | Anonymous file sharing, receive mode, website hosting, and chat over Tor |
 
 ### Security
 Offensive security tools, OSINT, reverse engineering, and threat intelligence.
@@ -54,7 +56,7 @@ Microcontrollers and embedded systems.
 | [ESP32](iot/esp32.md) | Architecture, variants (S2/S3/C3/C6/H2), features, power modes, Arduino IDE & ESP-IDF setup |
 | [ESP8266](iot/esp8266.md) | Wi-Fi microcontroller — modules, programming, comparison with ESP32 |
 | [Arduino](iot/arduino.md) | Platform overview, boards (Uno/Nano/Mega/Due), programming model, IDE 2.x |
-| [Espectre Project](iot/projects/espectre/) | ESP32 security research project |
+| [Espectre Project](iot/projects/espectre/) | ESP32 CSI motion detection — real-time WebSocket dashboard, ESPHome integration |
 
 ### Mobile
 Android development, Termux, and mobile virtualization.
@@ -68,6 +70,7 @@ Android development, Termux, and mobile virtualization.
 | [Termux Pentesting](mobile/termux-pentesting.md) | Kali NetHunter Rootless, Parrot OS, BlackArch on Android |
 | [Emulators](mobile/emulators.md) | VPhone OS, VMOS, Winlator, Vectras VM, PPSSPP — Android virtualization |
 | [Android Automation](mobile/android-automation.md) | ArduinoDroid, Tasker, MacroDroid — mobile programming and task automation |
+| [Android System](mobile/android-system.md) | Shizuku, Phantom Process Killer fix, display density and smallest width configuration |
 
 ### AI
 Artificial intelligence platforms, APIs, chat interfaces, and local inference.
@@ -88,6 +91,7 @@ Development environments, coding agents, terminals, and frameworks.
 | [Docker Essentials](devtools/docker-essentials.md) | Containers, images, volumes, Compose, Dockerfile patterns, LibreChat Docker setup |
 | [Figma](devtools/figma.md) | Design platform — dev mode, prototyping, plugins, Figma-to-code workflows |
 | [Frameworks & Libraries](devtools/frameworks-and-libraries.md) | PyTorch, Mineflayer, minecraft-protocol, go-mc — ML training, game bot development |
+| [APIs & Resources](devtools/apis-and-resources.md) | REST, GraphQL, API authentication, GitHub API, public APIs, rate limiting, MineSkin |
 
 ### Automation
 Web scraping, browser automation, and workflow tools.
@@ -104,21 +108,24 @@ Cloud platforms, hosting, and compute environments.
 |----------|-------------|
 | [Hosting Platforms](deployment/hosting-platforms.md) | Vercel, Netlify, Firebase Studio — static/serverless hosting, deployment workflows |
 | [Cloud Platforms](deployment/cloud-platforms.md) | Google Cloud Console, Colab, Kaggle, Antigravity, Gmail API — cloud compute and APIs |
+| [Kubernetes](deployment/kubernetes.md) | Architecture, kubectl, Deployments, Services, Ingress, Helm, GKE/EKS/AKS — container orchestration |
 
 ### Media
-Media processing, creative tools, and system utilities.
+Media processing, creative tools, and image enhancement.
 
 | Document | Description |
 |----------|-------------|
 | [Media Tools](media/media-tools.md) | FFmpeg, VLC, GIMP — media conversion, streaming, image editing, batch processing |
 | [Mobile Creative Tools](media/mobile-creative-tools.md) | CapCut, Alight Motion, CPU-Z — mobile video editing, motion graphics, system info |
+| [Image Upscalers](media/imgupscaler.md) | imgupscaler.com, Real-ESRGAN, Upscayl, Waifu2x — AI-based image and video upscaling |
 
 ### Reference
-Quick-reference materials and community directories.
+Storage platforms, communities, and quick-reference directories.
 
 | Document | Description |
 |----------|-------------|
-| [APIs & Resources](reference/apis-and-resources.md) | REST, GraphQL, API authentication, GitHub API, public APIs, rate limiting |
+| [Archive.org](reference/archive-org.md) | Wayback Machine, Software Library, Books, audio/video archive, CDX API, upload via CLI |
+| [MediaFire](reference/mediafire.md) | Free file hosting — sharing links, folder distribution, API access, CLI downloading |
 | [Platforms & Communities](reference/platforms-and-communities.md) | Social platforms, cybersec news, threat intel orgs, conferences, underground forums |
 
 ---
@@ -127,9 +134,9 @@ Quick-reference materials and community directories.
 
 | Metric | Value |
 |--------|-------|
-| **Total Documents** | 39 |
+| **Total Documents** | 44 |
 | **Categories** | 11 |
-| **Topics Covered** | Kernels, OS Theory, Protocols, Virtualization, Networking, Security, Reverse Engineering, OPSEC, IoT, Mobile, AI, Coding Agents, Docker, Automation, Deployment, Media |
+| **Topics Covered** | Kernels, OS Theory, Protocols, Virtualization, Networking, Security, Reverse Engineering, OPSEC, IoT, Mobile, AI, Coding Agents, Docker, Kubernetes, Automation, Deployment, Media, File Storage |
 
 ---
 
