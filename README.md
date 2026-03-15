@@ -47,6 +47,7 @@ Offensive security tools, OSINT, reverse engineering, and threat intelligence.
 | [Reverse Engineering](security/reverse-engineering.md) | x64dbg, Ghidra, Frida, IDA Pro — disassembly, debugging, dynamic instrumentation |
 | [OPSEC & Proxies](security/opsec-and-proxies.md) | OPSEC fundamentals, ProxyChains, proxy sources, Camoufox, temp numbers & email |
 | [Bootable USB Tools](security/bootable-usb-tools.md) | Rufus, Ventoy, BalenaEtcher — creating bootable drives for live OS and recovery |
+| [FingerprintJS](security/fingerprintjs.md) | Browser fingerprinting library — signals collected, spoofing, anti-fingerprint defenses, fraud detection |
 
 ### IoT
 Microcontrollers and embedded systems.
@@ -79,6 +80,7 @@ Artificial intelligence platforms, APIs, chat interfaces, and local inference.
 |----------|-------------|
 | [Platforms & APIs](ai/platforms-and-apis.md) | OpenRouter, Hugging Face, Pollinations, g4f, Groq, Runway ML, Ollama, llama.cpp — inference, APIs, creative tools |
 | [Chat Interfaces](ai/chat-interfaces.md) | ChatGPT, Claude, DeepSeek, Qwen, Kimi, Gemini, FlowGPT, LibreChat, Open WebUI — assistants and self-hosted UIs |
+| [AI Video Tools](ai/ai-video-tools.md) | Deep-Live-Cam (real-time face swap), RuView (AI video analysis) — setup, CLI usage, GPU configuration |
 
 ### Dev Tools
 Development environments, coding agents, terminals, and frameworks.
@@ -128,12 +130,15 @@ Email providers and clients for privacy-conscious communication.
 | [Email Clients](mail/email-clients.md) | Thunderbird, Canary Mail — desktop and mobile clients, PGP setup, IMAP configuration, Proton Bridge |
 
 ### Streaming
-Video platforms and anime streaming services.
+Video, anime, manga, and self-hosted media platforms.
 
 | Document | Description |
 |----------|-------------|
+| [Movie Streaming](streaming/movie-streaming.md) | PRMovies, FMovies, Nunflix — free movie and TV streaming, ad-blocker tips, legal alternatives |
 | [Video Platforms](streaming/video-platforms.md) | Dailymotion, EverythingMoe — general video hosting, API access, embedding, yt-dlp usage |
 | [Anime Streaming](streaming/anime-streaming.md) | AnimePahe, AnimeKai, HiAnime, Toono, RareAnimes — platforms, features, download tips, comparison |
+| [Manga Reading](streaming/manga-reading.md) | WeebCentral, MangaDex, Mihon/Tachiyomi — manga and manhwa platforms, offline reading, AniList sync |
+| [Plex](streaming/plex.md) | Self-hosted media server — library setup, file naming, Docker deployment, transcoding, API |
 
 ### Reference
 Storage platforms, communities, and quick-reference directories.
@@ -153,9 +158,9 @@ Storage platforms, communities, and quick-reference directories.
 
 | Metric | Value |
 |--------|-------|
-| **Total Documents** | 55 |
+| **Total Documents** | 63 |
 | **Categories** | 13 |
-| **Topics Covered** | Kernels, OS Theory, Protocols, Virtualization, Networking, Security, Reverse Engineering, OPSEC, IoT, Mobile, AI, Coding Agents, Docker, Kubernetes, Automation, Deployment, Media, Email, File Storage, Video Streaming, Anime |
+| **Topics Covered** | Kernels, OS Theory, Protocols, Virtualization, Networking, Security, Fingerprinting, Reverse Engineering, OPSEC, IoT, Mobile, AI, Video AI, Coding Agents, Docker, Kubernetes, Automation, Deployment, Media, Email, File Storage, Video Streaming, Anime, Manga, Self-Hosted Media |
 
 ---
 
