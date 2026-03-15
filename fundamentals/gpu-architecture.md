@@ -788,6 +788,5 @@ This is how Steam Proton runs Windows games on Linux — DXVK translates DirectX
 ## See Also
 
 - [CPU Architecture](cpu-architecture.md) — CPU hardware internals, pipelines, caches
-- [Graphics APIs](graphics-apis.md) — Full API reference and usage patterns
 - [Drivers & DLLs](drivers-and-dlls.md) — How drivers and shared libraries work
 - [Compilers & Interpreters](compilers-and-interpreters.md) — How shader code gets compiled
