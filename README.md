@@ -18,10 +18,15 @@ Core computer science and systems theory.
 | Document | Description |
 |----------|-------------|
 | [Kernel Architecture](fundamentals/kernel-architecture.md) | Linux, Windows NT, and Darwin kernel internals — architecture, syscalls, debugging, compilation, tuning, security |
+| [Linux Internals](fundamentals/linux-internals.md) | Deep dive — CFS scheduler, memory management, VFS, system calls, eBPF, cgroups, namespaces, boot process |
 | [Operating Systems](fundamentals/operating-systems.md) | OS theory, chroot, proot, proot-distro, virtualization, namespaces, isolation mechanisms |
 | [Linux Distributions](fundamentals/linux-distributions.md) | RHEL, Debian, Arch ecosystems — package managers, release cycles, use-case recommendations |
 | [Network Protocols](fundamentals/network-protocols.md) | Complete protocol reference — OSI model, TCP/UDP/QUIC, HTTP, DNS, TLS, MQTT, BGP, WireGuard, and 80+ protocols |
 | [Virtualization](fundamentals/virtualization.md) | WSL, QEMU/KVM, VirtualBox, VMware, Hyper-V — setup, usage, comparison |
+| [CPU Architecture](fundamentals/cpu-architecture.md) | Pipeline, caches, branch prediction, OoO execution, NUMA, SIMD, privilege rings, interrupts, x86-64/ARM64/RISC-V |
+| [GPU Architecture](fundamentals/gpu-architecture.md) | SM/warp model, rasterization pipeline, ray tracing, CUDA, TPU, Vulkan, OpenGL, GPU memory, driver stack |
+| [Compilers & Interpreters](fundamentals/compilers-and-interpreters.md) | Assembly language (x86-64, ARM64), assemblers, compiler stages, LLVM IR, JIT, historical languages |
+| [Drivers & DLLs](fundamentals/drivers-and-dlls.md) | Device drivers, Windows DLLs, Linux .so, services, daemons, dynamic linker, graphics driver stack |
 
 ### Networking
 Network infrastructure, tunneling, and secure connectivity.
@@ -148,6 +153,7 @@ Clients, bots, and servers for Minecraft Java Edition.
 |----------|-------------|
 | [Utility Clients](minecraft/utility-clients.md) | Meteor Client, Baritone — open-source Fabric utility mod, A* pathfinding bot, anarchy server tools |
 | [Ghost Clients](minecraft/ghost-clients.md) | Vape, Raven B+, Hydrogen, Vestige — stealth PvP clients, module overview, installation |
+| [Glazed Client](minecraft/glazed-client.md) | Glazed — injection-based paid client, module list, GUI system, multi-version support |
 | [Servers](minecraft/servers.md) | FakePixel (free Hypixel alternative), 2b2t, Hypixel, MineMenClub — server types, connecting, software |
 
 ### Reference
@@ -168,9 +174,9 @@ Storage platforms, communities, and quick-reference directories.
 
 | Metric | Value |
 |--------|-------|
-| **Total Documents** | 67 |
+| **Total Documents** | 74 |
 | **Categories** | 14 |
-| **Topics Covered** | Kernels, OS Theory, Protocols, Virtualization, Networking, Security, Fingerprinting, Reverse Engineering, OPSEC, IoT, Mobile, AI, Video AI, Coding Agents, Docker, Kubernetes, Automation, Deployment, Media, Email, File Storage, Video Streaming, Anime, Manga, Self-Hosted Media, Minecraft Clients, Minecraft Servers |
+| **Topics Covered** | Kernels, Linux Internals, CPU Architecture, GPU Architecture, Rasterization, Ray Tracing, CUDA, Compilers, Assembly, Drivers, DLLs, OS Theory, Protocols, Virtualization, Networking, Security, Fingerprinting, Reverse Engineering, OPSEC, IoT, Mobile, AI, Video AI, Coding Agents, Docker, Kubernetes, Automation, Deployment, Media, Email, File Storage, Video Streaming, Anime, Manga, Self-Hosted Media, Minecraft Clients, Minecraft Servers |
 
 ---
 
