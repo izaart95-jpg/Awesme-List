@@ -21,6 +21,7 @@ Core computer science and systems theory.
 | [Operating Systems](fundamentals/operating-systems.md) | OS theory, chroot, proot, proot-distro, virtualization, namespaces, isolation mechanisms |
 | [Linux Distributions](fundamentals/linux-distributions.md) | RHEL, Debian, Arch ecosystems — package managers, release cycles, use-case recommendations |
 | [Network Protocols](fundamentals/network-protocols.md) | Complete protocol reference — OSI model, TCP/UDP/QUIC, HTTP, DNS, TLS, MQTT, BGP, WireGuard, and 80+ protocols |
+| [Virtualization](fundamentals/virtualization.md) | WSL, QEMU/KVM, VirtualBox, VMware, Hyper-V — setup, usage, comparison |
 
 ### Networking
 Network infrastructure, tunneling, and secure connectivity.
@@ -30,6 +31,7 @@ Network infrastructure, tunneling, and secure connectivity.
 | [SSH Tunneling](networking/ssh-tunneling.md) | Remote port forwarding, reverse proxies — Pinggy, Serveo, localhost.run |
 | [VPN & ZTNA](networking/vpn-and-ztna.md) | Tailscale, WireGuard, OpenVPN, NetBird, ProtonVPN, Tor, Playit.gg |
 | [Free DNS Services](networking/free-dns-services.md) | Dynamic DNS (No-IP, Dynu, DuckDNS, Cloudflare), free domains, DNS hosting |
+| [Remote Access](networking/remote-access.md) | X11, VNC, RDP, SPICE, SSH basics, Win-KeX, VcXsrv, Parsec, AnyDesk, Sunshine+Moonlight, RustDesk, NoMachine, Guacamole, noVNC, xrdp |
 
 ### Security
 Offensive security tools, OSINT, and threat intelligence.
@@ -83,9 +85,9 @@ Quick-reference materials and community directories.
 
 | Metric | Value |
 |--------|-------|
-| **Total Documents** | 20 |
+| **Total Documents** | 22 |
 | **Categories** | 7 |
-| **Topics Covered** | Kernels, OS Theory, Protocols, Networking, Security, IoT, Mobile, AI |
+| **Topics Covered** | Kernels, OS Theory, Protocols, Virtualization, Networking, Security, IoT, Mobile, AI |
 
 ---
 

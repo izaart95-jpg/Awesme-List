@@ -210,7 +210,27 @@ print(response.choices[0].message.content)
 
 ---
 
-### 2.5 Poe (Quora)
+### 2.5 MiniMax (Hailuo AI)
+- **Website:** https://www.minimaxi.com / https://hailuoai.com
+- **Company:** MiniMax (China)
+- **Models:** MiniMax-Text-01, abab-series
+- **Free Tier:** Free web chat (Hailuo AI)
+- **Key Product:** **Hailuo AI Video** — text-to-video generation (competes with Runway, Kling)
+
+**Key Features:**
+- Text generation (strong multilingual)
+- Video generation (Hailuo AI — free credits)
+- Voice synthesis
+- Music generation
+- Large context window (4M tokens claimed on MiniMax-Text-01)
+- API available
+
+**Strengths:** Free video generation, large context, multimodal
+**Weaknesses:** Less established outside China
+
+---
+
+### 2.6 Poe (Quora)
 - **Website:** https://poe.com
 - **Company:** Quora
 - **What it is:** Multi-model chat platform — access GPT-4o, Claude, Gemini, Llama, and more from one interface
@@ -220,7 +240,7 @@ print(response.choices[0].message.content)
 
 ---
 
-### 2.6 You.com
+### 2.7 You.com
 - **Website:** https://you.com
 - **What it is:** AI search + chat platform
 - **Free Tier:** Free (GPT-4o, Claude access)
@@ -228,7 +248,7 @@ print(response.choices[0].message.content)
 
 ---
 
-### 2.7 Perplexity AI
+### 2.8 Perplexity AI
 - **Website:** https://perplexity.ai
 - **What it is:** AI-powered search engine with citations
 - **Free Tier:** Free (limited Pro searches)
@@ -237,7 +257,7 @@ print(response.choices[0].message.content)
 
 ---
 
-### 2.8 HuggingChat
+### 2.9 HuggingChat
 - **Website:** https://huggingface.co/chat
 - **What it is:** Open-source chat interface for Hugging Face models
 - **Free Tier:** Free
@@ -246,7 +266,7 @@ print(response.choices[0].message.content)
 
 ---
 
-### 2.9 DuckDuckGo AI Chat
+### 2.10 DuckDuckGo AI Chat
 - **Website:** https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat
 - **What it is:** Private AI chat (no data stored)
 - **Free Tier:** Free
