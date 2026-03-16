@@ -72,7 +72,7 @@ What they see:
 
 ## 2. HTTPS — HTTP Inside TLS
 
-HTTPS is HTTP with a TLS layer inserted between TCP and HTTP. The HTTP protocol itself is unchanged — same headers, methods, status codes. TLS wraps it in an encrypted tunnel.
+HTTPS is HTTP with a TLS layer inserted between TCP and HTTP ( S = Secure). The HTTP protocol itself is unchanged — same headers, methods, status codes. TLS wraps it in an encrypted tunnel.
 
 ```
 HTTP stack:          HTTPS stack:
