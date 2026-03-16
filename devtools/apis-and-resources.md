@@ -1061,6 +1061,59 @@ curl -s https://api.mcsrvstat.us/bedrock/3/play.example.com | jq .
 https://api.mcsrvstat.us/icon/hypixel.net
 ```
 
+**Free Fire APIs:**
+
+Unofficial developer APIs for Garena Free Fire — player stats, profiles, and redeem codes.
+
+**FreeFire-Api (0xMe)**
+
+- **Repository:** https://github.com/0xMe/FreeFire-Api
+- **Language:** Python + Flask
+- **Type:** Internal Free Fire API client using Protocol Buffers
+
+Interacts with Free Fire's internal game servers using compiled protobuf schemas and encrypted requests — the same protocol the official client uses. Requires account credentials per server region.
+```bash
+git clone https://github.com/0xMe/FreeFire-Api.git
+cd FreeFire-Api
+pip install -r requirements.txt
+# Add credentials to ./Configuration/AccountConfiguration.json
+python app.py   # Starts Flask API on :5000
+```
+
+**Endpoints (examples):**
+- `GET /get_player_stats?server=ind&uid=11959685790&matchmode=RANKED&gamemode=br`
+- Player profile, rank, guild, personal show data, pet info
+
+**Supported regions:** IND, BR, US, SG, RU, ID, TW, VN, TH, ME, PK, CIS, BD, NA
+
+**Note:** Uses your own FF account credentials to authenticate requests. Marked "OLD SOURCE BUT WORKING" by the author — treat as research/educational.
+
+---
+
+**HL Gaming Free Fire Redeem Codes (dlt source)**
+
+- **dlt source:** https://dlthub.com/context/source/hl-gaming-free-fire-redeem-codes
+- **Type:** dlt (data load tool) pipeline source for Free Fire redeem codes
+
+A `dlt` pipeline source that fetches active Free Fire redeem codes from HL Gaming Official's API. Useful for building bots or dashboards that automatically surface valid redeem codes.
+```python
+import dlt
+from hl_gaming_free_fire_redeem_codes import hl_gaming_free_fire_redeem_codes_source
+
+pipeline = dlt.pipeline(
+    pipeline_name="ff_redeem_codes",
+    destination="duckdb",
+    dataset_name="freefire"
+)
+
+source = hl_gaming_free_fire_redeem_codes_source()
+load_info = pipeline.run(source)
+print(load_info)
+# Loads active redeem codes into local DuckDB
+```
+
+**Use case:** schedule this pipeline (cron/Airflow/n8n) to refresh a codes database, then surface them via a bot or website automatically.
+
 ### 8.4 AI & ML APIs
 
 | API | Auth | Endpoint | Description |
