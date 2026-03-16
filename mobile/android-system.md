@@ -8,6 +8,7 @@ This document covers tools and techniques for unlocking deeper Android system ac
 1. [Shizuku](#1-shizuku)
 2. [Phantom Process Killer — Fix](#2-phantom-process-killer--fix)
 3. [Smallest Width (sw dp) & Display Density](#3-smallest-width-sw-dp--display-density)
+4. [Canta - Rootless Debloater](#4-canta)
 
 ---
 
