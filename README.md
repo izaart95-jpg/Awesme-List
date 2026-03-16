@@ -17,6 +17,7 @@ Core computer science and systems theory.
 
 | Document | Description |
 |----------|-------------|
+| [How a Computer Really Works](fundamentals/how-computers-work.md) | Complete vertical slice: electrons → transistors → logic gates → Apple M-series → macOS → WiFi → TLS → QUIC → WebKit → DASH → VP9 decode → Metal GPU → LCD photons → AAC → DAC → speaker pressure waves |
 | [Kernel Architecture](fundamentals/kernel-architecture.md) | Linux, Windows NT, and Darwin kernel internals — architecture, syscalls, debugging, compilation, tuning, security |
 | [Linux Internals](fundamentals/linux-internals.md) | Deep dive — CFS scheduler, memory management, VFS, system calls, eBPF, cgroups, namespaces, boot process |
 | [Operating Systems](fundamentals/operating-systems.md) | OS theory, chroot, proot, proot-distro, virtualization, namespaces, isolation mechanisms |
@@ -191,7 +192,7 @@ Storage platforms, URL tools, communities, and quick-reference directories.
 
 | Metric | Value |
 |--------|-------|
-| **Total Documents** | 93 |
+| **Total Documents** | 94 |
 | **Categories** | 15 |
 | **Topics Covered** | Kernels, Linux Internals, CPU/GPU Architecture, Rasterization, Ray Tracing, CUDA, Compilers, Assembly, Drivers, DLLs, OS Theory, Protocols, Virtualization, Networking, Security, RE, Binary Analysis, Exploit Development, Active Directory, Offensive Frameworks, Network Analysis, Zeek, Fingerprinting, OPSEC, IoT, Mobile, Android Debloating, AI, Video AI, Coding Agents, Docker, Kubernetes, Automation, Deployment, Media, Email, File Storage, Video Streaming, Anime, Manga, Self-Hosted Media, Minecraft Clients, Minecraft Servers, URL Shorteners, Hacker Roadmap |
 
