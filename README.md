@@ -72,6 +72,7 @@
 ### Mobile
 | Document | Description |
 |----------|-------------|
+| [Ricing & Window Managers](fundamentals/ricing-window-managers.md) | Hyprland, i3wm, bspwm, Awesome WM, niri, sway, dwm — configs, compositors (picom), bars (waybar/polybar), color schemes, dotfiles |
 | [Termux Setup](mobile/termux-setup.md) | Installation, package management, SSH, Tmux, FFmpeg |
 | [Linux on Android](mobile/linux-on-android.md) | Ubuntu via proot-distro with GUI (VNC + LXQt/LXDE) |
 | [Desktop Environments](mobile/desktop-environments.md) | XFCE, LXDE, LXQT, GNOME, KDE on headless + Termux X11 |
@@ -80,6 +81,7 @@
 | [Emulators](mobile/emulators.md) | VPhone OS, VMOS, Winlator, Vectras VM, PPSSPP |
 | [Android Automation](mobile/android-automation.md) | ArduinoDroid, Tasker, MacroDroid |
 | [Android System](mobile/android-system.md) | Shizuku, Canta (rootless debloater), Phantom Process Killer fix |
+| [Termux GPU Acceleration](mobile/termux-gpu-accel.md) | VirGL, Zink (MESA_GL_VERSION_OVERRIDE), Turnip (Adreno), virgl_test_server setup, proot desktop with hardware rendering |
 | [Android Rooting](mobile/android-rooting.md) | Bootloader unlock, Magisk, KernelSU, APatch, TWRP, custom ROMs, Play Integrity bypass |
 
 ### AI
@@ -171,7 +173,7 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Documents** | 105 |
+| **Total Documents** | 107 |
 | **Categories** | 18 |
 
 ---
