@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=1000&color=1A1A1A&center=true&vCenter=true&width=500&height=70&lines=LOGICNODE+SYSTEMS;LOGIC+IS+NOT+MAGIC;INDUSTRIAL+EFFICIENCY" alt="LogicNode Title" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=1000&color=1A1A1A&center=true&vCenter=true&width=500&height=70&lines=AWESOME+SYSTEMS" alt="LogicNode Title" />
 
 **A structured knowledge base covering systems fundamentals, networking, security, IoT, mobile development, dev tools, automation, deployment, and media.**
 
