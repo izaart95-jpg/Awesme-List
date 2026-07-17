@@ -56,6 +56,7 @@
 | [Hacker Roadmap](security/hacker-roadmap.md) | sundowndev roadmap, Awesome Hacking, Arcanum AI Security Hub, 0xor0ne awesome-list |
 | [OPSEC & Proxies](security/opsec-and-proxies.md) | OPSEC fundamentals, ProxyChains, Camoufox, temp numbers & email |
 | [Bootable USB Tools](security/bootable-usb-tools.md) | Rufus, Ventoy, BalenaEtcher |
+| [DHCP Attacks](security/network-security-dhcp-attacks.md) | DHCP Attacks & Mitigation Guide |
 | [FingerprintJS](security/fingerprintjs.md) | Browser fingerprinting — signals, spoofing, anti-fingerprint defenses |
 
 ### IoT
@@ -173,7 +174,7 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Documents** | 107 |
+| **Total Documents** | 108 |
 | **Categories** | 18 |
 
 ---
